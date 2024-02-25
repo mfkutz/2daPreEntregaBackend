@@ -1,0 +1,402 @@
+[
+    {
+        "title": "Pastillas de freno Yamaha YZF-R6",
+        "description": "Pastillas de freno de alto rendimiento para la Yamaha YZF-R6.",
+        "price": 49.99,
+        "thumbnail": ["https://example.com/pastillas_freno.jpg"],
+        "status": true,
+        "code": "REP001",
+        "stock": 15,
+        "category": "frenos"
+    },
+    {
+        "title": "Cadena transmisión Suzuki GSX-R1000",
+        "description": "Cadena de transmisión reforzada para la Suzuki GSX-R1000.",
+        "price": 89.99,
+        "thumbnail": ["https://example.com/cadena_transmision.jpg"],
+        "status": true,
+        "code": "REP002",
+        "stock": 20,
+        "category": "cadena"
+    },
+    {
+        "title": "Neumático competición Kawasaki Ninja ZX-10R",
+        "description": "Neumático de competición para la Kawasaki Ninja ZX-10R.",
+        "price": 149.99,
+        "thumbnail": ["https://example.com/neumatico_competicion.jpg"],
+        "status": true,
+        "code": "REP003",
+        "stock": 12,
+        "category": "neumatico"
+    },
+    {
+        "title": "Filtro aire alto flujo Honda CBR1000RR",
+        "description": "Filtro de aire de alto flujo para la Honda CBR1000RR.",
+        "price": 39.99,
+        "thumbnail": ["https://example.com/filtro_aire.jpg"],
+        "status": true,
+        "code": "REP004",
+        "stock": 18,
+        "category": "filtro"
+    },
+    {
+        "title": "Kit carenados deportivos Ducati Panigale V4",
+        "description": "Kit completo de carenados deportivos para la Ducati Panigale V4.",
+        "price": 399.99,
+        "thumbnail": ["https://example.com/carenados_deportivos.jpg"],
+        "status": true,
+        "code": "REP005",
+        "stock": 5,
+        "category": "carenados"
+    },
+    {
+        "title": "Manillar deportivo aluminio Yamaha YZF-R1",
+        "description": "Manillar deportivo de aluminio para la Yamaha YZF-R1.",
+        "price": 69.99,
+        "thumbnail": ["https://example.com/manillar_deportivo.jpg"],
+        "status": true,
+        "code": "REP006",
+        "stock": 10,
+        "category": "manillar"
+    },
+    {
+        "title": "Escape competición Kawasaki Ninja ZX-6R",
+        "description": "Escape de competición para la Kawasaki Ninja ZX-6R.",
+        "price": 299.99,
+        "thumbnail": ["https://example.com/escape_competicion.jpg"],
+        "status": true,
+        "code": "REP007",
+        "stock": 8,
+        "category": "escape"
+    },
+    {
+        "title": "Amortiguador trasero ajustable Suzuki GSX-R750",
+        "description": "Amortiguador trasero ajustable para la Suzuki GSX-R750.",
+        "price": 199.99,
+        "thumbnail": ["https://example.com/amortiguador_ajustable.jpg"],
+        "status": true,
+        "code": "REP008",
+        "stock": 6,
+        "category": "amortiguador"
+    },
+    {
+        "title": "Kit rodamientos dirección Honda CBR600RR",
+        "description": "Kit de rodamientos de dirección para la Honda CBR600RR.",
+        "price": 59.99,
+        "thumbnail": ["https://example.com/rodamientos_direccion.jpg"],
+        "status": true,
+        "code": "REP009",
+        "stock": 9,
+        "category": "rodamientos"
+    },
+    {
+        "title": "Kit freno competición Yamaha YZF-R3",
+        "description": "Kit de freno de competición para la Yamaha YZF-R3.",
+        "price": 249.99,
+        "thumbnail": ["https://example.com/kit_freno_competicion.jpg"],
+        "status": true,
+        "code": "REP010",
+        "stock": 7,
+        "category": "kitfreno"
+    },
+    {
+        "title": "Pastillas de freno Honda CBR600RR",
+        "description": "Pastillas de freno de alto rendimiento para la Honda CBR600RR.",
+        "price": 59.99,
+        "thumbnail": ["https://example.com/pastillas_freno_honda.jpg"],
+        "status": true,
+        "code": "REP011",
+        "stock": 15,
+        "category": "frenos"
+    },
+    {
+        "title": "Cadena transmisión Yamaha YZF-R1",
+        "description": "Cadena de transmisión reforzada para la Yamaha YZF-R1.",
+        "price": 79.99,
+        "thumbnail": ["https://example.com/cadena_transmision_yamaha.jpg"],
+        "status": true,
+        "code": "REP012",
+        "stock": 20,
+        "category": "cadena"
+    },
+    {
+        "title": "Neumático competición Ducati Panigale V4",
+        "description": "Neumático de competición para la Ducati Panigale V4.",
+        "price": 139.99,
+        "thumbnail": ["https://example.com/neumatico_competicion_ducati.jpg"],
+        "status": true,
+        "code": "REP013",
+        "stock": 12,
+        "category": "neumatico"
+    },
+    {
+        "title": "Filtro aire alto flujo Suzuki GSX-R1000",
+        "description": "Filtro de aire de alto flujo para la Suzuki GSX-R1000.",
+        "price": 49.99,
+        "thumbnail": ["https://example.com/filtro_aire_suzuki.jpg"],
+        "status": true,
+        "code": "REP014",
+        "stock": 18,
+        "category": "filtro"
+    },
+    {
+        "title": "Kit carenados deportivos Kawasaki Ninja ZX-6R",
+        "description": "Kit completo de carenados deportivos para la Kawasaki Ninja ZX-6R.",
+        "price": 349.99,
+        "thumbnail": ["https://example.com/carenados_deportivos_kawasaki.jpg"],
+        "status": true,
+        "code": "REP015",
+        "stock": 5,
+        "category": "carenados"
+    },
+    {
+        "title": "Manillar deportivo aluminio Ducati Panigale V4",
+        "description": "Manillar deportivo de aluminio para la Ducati Panigale V4.",
+        "price": 79.99,
+        "thumbnail": ["https://example.com/manillar_deportivo_ducati.jpg"],
+        "status": true,
+        "code": "REP016",
+        "stock": 10,
+        "category": "manillar"
+    },
+    {
+        "title": "Escape competición Honda CBR1000RR",
+        "description": "Escape de competición para la Honda CBR1000RR.",
+        "price": 279.99,
+        "thumbnail": ["https://example.com/escape_competicion_honda.jpg"],
+        "status": true,
+        "code": "REP017",
+        "stock": 8,
+        "category": "escape"
+    },
+    {
+        "title": "Amortiguador trasero ajustable Yamaha YZF-R6",
+        "description": "Amortiguador trasero ajustable para la Yamaha YZF-R6.",
+        "price": 189.99,
+        "thumbnail": ["https://example.com/amortiguador_ajustable_yamaha.jpg"],
+        "status": true,
+        "code": "REP018",
+        "stock": 6,
+        "category": "amortiguador"
+    },
+    {
+        "title": "Kit rodamientos dirección Suzuki GSX-R750",
+        "description": "Kit de rodamientos de dirección para la Suzuki GSX-R750.",
+        "price": 69.99,
+        "thumbnail": ["https://example.com/rodamientos_direccion_suzuki.jpg"],
+        "status": true,
+        "code": "REP019",
+        "stock": 9,
+        "category": "rodamientos"
+    },
+    {
+        "title": "Kit freno competición Kawasaki Ninja ZX-10R",
+        "description": "Kit de freno de competición para la Kawasaki Ninja ZX-10R.",
+        "price": 229.99,
+        "thumbnail": ["https://example.com/kit_freno_competicion_kawasaki.jpg"],
+        "status": true,
+        "code": "REP020",
+        "stock": 7,
+        "category": "kitfreno"
+    },
+    {
+        "title": "Pastillas de freno Suzuki GSX-R750",
+        "description": "Pastillas de freno de alto rendimiento para la Suzuki GSX-R750.",
+        "price": 54.99,
+        "thumbnail": ["https://example.com/pastillas_freno_suzuki.jpg"],
+        "status": true,
+        "code": "REP021",
+        "stock": 15,
+        "category": "frenos"
+    },
+    {
+        "title": "Cadena transmisión Honda CBR1000RR",
+        "description": "Cadena de transmisión reforzada para la Honda CBR1000RR.",
+        "price": 84.99,
+        "thumbnail": ["https://example.com/cadena_transmision_honda.jpg"],
+        "status": true,
+        "code": "REP022",
+        "stock": 20,
+        "category": "cadena"
+    },
+    {
+        "title": "Neumático competición Yamaha YZF-R6",
+        "description": "Neumático de competición para la Yamaha YZF-R6.",
+        "price": 129.99,
+        "thumbnail": ["https://example.com/neumatico_competicion_yamaha.jpg"],
+        "status": true,
+        "code": "REP023",
+        "stock": 12,
+        "category": "neumatico"
+    },
+    {
+        "title": "Filtro aire alto flujo Kawasaki Ninja ZX-6R",
+        "description": "Filtro de aire de alto flujo para la Kawasaki Ninja ZX-6R.",
+        "price": 44.99,
+        "thumbnail": ["https://example.com/filtro_aire_kawasaki.jpg"],
+        "status": true,
+        "code": "REP024",
+        "stock": 18,
+        "category": "filtro"
+    },
+    {
+        "title": "Kit carenados deportivos Suzuki GSX-R1000",
+        "description": "Kit completo de carenados deportivos para la Suzuki GSX-R1000.",
+        "price": 369.99,
+        "thumbnail": ["https://example.com/carenados_deportivos_suzuki.jpg"],
+        "status": true,
+        "code": "REP025",
+        "stock": 5,
+        "category": "carenados"
+    },
+    {
+        "title": "Manillar deportivo aluminio Kawasaki Ninja ZX-10R",
+        "description": "Manillar deportivo de aluminio para la Kawasaki Ninja ZX-10R.",
+        "price": 74.99,
+        "thumbnail": ["https://example.com/manillar_deportivo_kawasaki.jpg"],
+        "status": true,
+        "code": "REP026",
+        "stock": 10,
+        "category": "manillar"
+    },
+    {
+        "title": "Escape competición Ducati Panigale V4",
+        "description": "Escape de competición para la Ducati Panigale V4.",
+        "price": 259.99,
+        "thumbnail": ["https://example.com/escape_competicion_ducati.jpg"],
+        "status": true,
+        "code": "REP027",
+        "stock": 8,
+        "category": "escape"
+    },
+    {
+        "title": "Amortiguador trasero ajustable Honda CBR600RR",
+        "description": "Amortiguador trasero ajustable para la Honda CBR600RR.",
+        "price": 179.99,
+        "thumbnail": ["https://example.com/amortiguador_ajustable_honda.jpg"],
+        "status": true,
+        "code": "REP028",
+        "stock": 6,
+        "category": "amortiguador"
+    },
+    {
+        "title": "Kit rodamientos dirección Yamaha YZF-R1",
+        "description": "Kit de rodamientos de dirección para la Yamaha YZF-R1.",
+        "price": 64.99,
+        "thumbnail": ["https://example.com/rodamientos_direccion_yamaha.jpg"],
+        "status": true,
+        "code": "REP029",
+        "stock": 9,
+        "category": "rodamientos"
+    },
+    {
+        "title": "Kit freno competición Suzuki GSX-R600",
+        "description": "Kit de freno de competición para la Suzuki GSX-R600.",
+        "price": 239.99,
+        "thumbnail": ["https://example.com/kit_freno_competicion_suzuki.jpg"],
+        "status": true,
+        "code": "REP030",
+        "stock": 7,
+        "category": "kitfreno"
+    },
+    {
+        "title": "Pastillas de freno Ducati Panigale V4",
+        "description": "Pastillas de freno de alto rendimiento para la Ducati Panigale V4.",
+        "price": 69.99,
+        "thumbnail": ["https://example.com/pastillas_freno_ducati.jpg"],
+        "status": true,
+        "code": "REP031",
+        "stock": 15,
+        "category": "frenos"
+    },
+    {
+        "title": "Cadena transmisión Kawasaki Ninja ZX-10R",
+        "description": "Cadena de transmisión reforzada para la Kawasaki Ninja ZX-10R.",
+        "price": 99.99,
+        "thumbnail": ["https://example.com/cadena_transmision_kawasaki.jpg"],
+        "status": true,
+        "code": "REP032",
+        "stock": 20,
+        "category": "cadena"
+    },
+    {
+        "title": "Neumático competición Suzuki GSX-R600",
+        "description": "Neumático de competición para la Suzuki GSX-R600.",
+        "price": 119.99,
+        "thumbnail": ["https://example.com/neumatico_competicion_suzuki.jpg"],
+        "status": true,
+        "code": "REP033",
+        "stock": 12,
+        "category": "neumatico"
+    },
+    {
+        "title": "Filtro aire alto flujo Yamaha YZF-R1",
+        "description": "Filtro de aire de alto flujo para la Yamaha YZF-R1.",
+        "price": 59.99,
+        "thumbnail": ["https://example.com/filtro_aire_yamaha.jpg"],
+        "status": true,
+        "code": "REP034",
+        "stock": 18,
+        "category": "filtro"
+    },
+    {
+        "title": "Kit carenados deportivos Honda CBR600RR",
+        "description": "Kit completo de carenados deportivos para la Honda CBR600RR.",
+        "price": 379.99,
+        "thumbnail": ["https://example.com/carenados_deportivos_honda.jpg"],
+        "status": true,
+        "code": "REP035",
+        "stock": 5,
+        "category": "carenados"
+    },
+    {
+        "title": "Manillar deportivo aluminio Suzuki GSX-R750",
+        "description": "Manillar deportivo de aluminio para la Suzuki GSX-R750.",
+        "price": 89.99,
+        "thumbnail": ["https://example.com/manillar_deportivo_suzuki.jpg"],
+        "status": true,
+        "code": "REP036",
+        "stock": 10,
+        "category": "manillar"
+    },
+    {
+        "title": "Escape competición Yamaha YZF-R6",
+        "description": "Escape de competición para la Yamaha YZF-R6.",
+        "price": 299.99,
+        "thumbnail": ["https://example.com/escape_competicion_yamaha.jpg"],
+        "status": true,
+        "code": "REP037",
+        "stock": 8,
+        "category": "escape"
+    },
+    {
+        "title": "Amortiguador trasero ajustable Kawasaki Ninja ZX-6R",
+        "description": "Amortiguador trasero ajustable para la Kawasaki Ninja ZX-6R.",
+        "price": 209.99,
+        "thumbnail": ["https://example.com/amortiguador_ajustable_kawasaki.jpg"],
+        "status": true,
+        "code": "REP038",
+        "stock": 6,
+        "category": "amortiguador"
+    },
+    {
+        "title": "Kit rodamientos dirección Ducati Panigale V2",
+        "description": "Kit de rodamientos de dirección para la Ducati Panigale V2.",
+        "price": 79.99,
+        "thumbnail": ["https://example.com/rodamientos_direccion_ducati.jpg"],
+        "status": true,
+        "code": "REP039",
+        "stock": 9,
+        "category": "rodamientos"
+    },
+    {
+        "title": "Kit freno competición Honda CBR1000RR",
+        "description": "Kit de freno de competición para la Honda CBR1000RR.",
+        "price": 269.99,
+        "thumbnail": ["https://example.com/kit_freno_competicion_honda.jpg"],
+        "status": true,
+        "code": "REP040",
+        "stock": 7,
+        "category": "kitfreno"
+    }
+]
