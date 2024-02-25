@@ -13,7 +13,7 @@ http://localhost:8080/api/products?limit=2
 - page permitirá devolver la página que queremos buscar, en caso de no recibir page, ésta será de 1. ✅
 
 http://localhost:8080/api/products?limit=2&page=3
-![alt text](/images/image-1.png)
+![alt text](./src/public/images/image-1.png)
 
 control en caso de introducir una pagina inexistente
 
@@ -21,7 +21,7 @@ http://localhost:8080/api/products?page=4000
 http://localhost:8080/api/products?page=-4000
 http://localhost:8080/api/products?page=ffffffasd
 
-![alt text](image-13.png)
+![alt text](./src/public/images/image-13.png)
 
 - query, el tipo de elemento que quiero buscar (es decir, qué filtro aplicar), en caso de no recibir query, realizar la búsqueda general✅
 
@@ -29,7 +29,7 @@ Aqui la disponibilidad depende del stock disponible, true o false
 
 http://localhost:8080/api/products?available=false
 
-![alt text](image-3.png)
+![alt text](./src/public/images/image-3.png)
 
 http://localhost:8080/api/products?category=frenos
 
@@ -45,13 +45,13 @@ http://localhost:8080/api/products?category=frenos
   rodamientos
   kitfreno
 
-![alt text](image-2.png)
+![alt text](./src/public/images/image-2.png)
 
 - sort: asc/desc, para realizar ordenamiento ascendente o descendente por precio, en caso de no recibir sort, no realizar ningún ordenamiento✅
 
 http://localhost:8080/api/products?sort=asc
 
-![alt text](image-4.png)
+![alt text](./src/public/images/image-4.png)
 
 - El método GET deberá devolver un objeto con el siguiente formato:
   {
@@ -67,7 +67,7 @@ http://localhost:8080/api/products?sort=asc
   nextLink: Link directo a la página siguiente (null si hasNextPage=false)
   }✅
 
-  ![alt text](image-5.png)
+  ![alt text](./src/public/images/image-5.png)
 
 -Se deberá poder buscar productos por categoría o por disponibilidad, y se deberá poder realizar un ordenamiento de
 estos productos de manera ascendente o descendente por precio. ✅
@@ -78,7 +78,7 @@ Además, agregar al router de carts los siguientes endpoints:
 
 http://localhost:8080/api/carts/65d7e7b7fbde72ff1ca1331c/products/65d79970965a8c28cd22b3b7
 
-![alt text](image-6.png)
+![alt text](./src/public/images/image-6.png)
 
 - PUT api/carts/:cid deberá actualizar el carrito con un arreglo de productos con el formato especificado arriba. ✅
 
@@ -94,23 +94,23 @@ ejemplo :
 ]
 }
 
-![alt text](image-7.png)
+![alt text](./src/public/images/image-7.png)
 
 - PUT api/carts/:cid/products/:pid deberá poder actualizar SÓLO la cantidad de ejemplares del
   producto por cualquier cantidad pasada desde req.body ✅
 
   http://localhost:8080/api/carts/65da7d910d6fcf333e2527d7/products/65d798f5965a8c28cd22711b
 
-  ![alt text](image-8.png)
+  ![alt text](./src/public/images/image-8.png)
 
   Aqui le hice un pequeño control de stock, si ponemos mas del existente saldrá un error
-  ![alt text](image-9.png)
+  ![alt text](./src/public/images/image-9.png)
 
 - DELETE api/carts/:cid deberá eliminar todos los productos del carrito✅
 
 http://localhost:8080/api/carts/65d7e7b7fbde72ff1ca1331c
 
-![alt text](image-10.png)
+![alt text](./src/public/images/image-10.png)
 
 - Esta vez, para el modelo de Carts, en su propiedad products, el id de cada producto generado dentro del
   array tiene que hacer referencia al modelo de Products. Modificar la ruta /:cid para que al traer todos
@@ -121,7 +121,7 @@ http://localhost:8080/api/carts/65d7e7b7fbde72ff1ca1331c
 
 http://localhost:8080/products
 
-![alt text](image-11.png)
+![alt text](./src/public/images/image-11.png)
 
 - Contar con el botón de “agregar al carrito” directamente, sin necesidad de abrir una página adicional con los detalles del producto.✅
 
@@ -129,4 +129,4 @@ http://localhost:8080/products
 
 http://localhost:8080/carts/65da7d910d6fcf333e2527d7
 
-![alt text](image-12.png)
+![alt text](./src/public/images/image-12.png)
