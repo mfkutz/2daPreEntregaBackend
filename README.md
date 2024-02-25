@@ -8,7 +8,7 @@ http://localhost:8080/api/products
 
 http://localhost:8080/api/products?limit=2
 
-![alt text](/images/image.png)
+![alt text](.src/public/images/image.png)
 
 - page permitirá devolver la página que queremos buscar, en caso de no recibir page, ésta será de 1. ✅
 
