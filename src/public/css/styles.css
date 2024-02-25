@@ -201,3 +201,7 @@ a:hover {
 .icon_world {
     font-size: 30px;
 }
+
+.title_select {
+    margin: 0;
+}

@@ -13,14 +13,15 @@
 
         <button id="newCartButton">Crear nuevo carrito</button>
 
-        <select name="cartSelect" id="cartSelect">
-            {{#each carts}}
-            <option value="{{this._id}}" {{#ifCond this._id '===' selectedCartId}}selected{{/ifCond}}>{{this._id}}
-            </option>
-            {{/each}}
-        </select>
-
-
+        <div>
+            <p class="title_select">Seleccione un carrito</p>
+            <select name="cartSelect" id="cartSelect">
+                {{#each carts}}
+                <option value="{{this._id}}" {{#ifCond this._id '===' selectedCartId}}selected{{/ifCond}}>{{this._id}}
+                </option>
+                {{/each}}
+            </select>
+        </div>
 
         <span class="span_cart">
             <a href="#" id="cartlink">
@@ -35,18 +36,18 @@
     <div class="product_container">
         {{#each simplifiedProducts }}
         <div class="box_and_btn">
-            <a href="/products/{{id}}">
-                <ul class="product_box">
-                    <li class="list_box">
-                        <h2>Product: {{title}} </h2>
-                        <p>Desc: {{description}}</p>
-                        <p>price: {{price}}</p>
-                        <p>Code: {{code}}</p>
-                        <p>Stock: {{stock}}</p>
-                        <p>category: {{category}}</p>
-                    </li>
-                </ul>
-            </a>
+
+            <ul class="product_box">
+                <li class="list_box">
+                    <h2>Product: {{title}} </h2>
+                    <p>Desc: {{description}}</p>
+                    <p>price: {{price}}</p>
+                    <p>Code: {{code}}</p>
+                    <p>Stock: {{stock}}</p>
+                    <p>category: {{category}}</p>
+                </li>
+            </ul>
+
             <div class="box_btn">
                 <button class="btn_cart" productId="{{id}}">Add to cart</button>
             </div>
