@@ -102,8 +102,8 @@ productsRouter.get("/api/products", async (req, res) => {
         }
 
         const baseUrl = req.protocol + '://' + req.get('host') + req.originalUrl
-        const prevLink = products.hasPrevPage ? baseUrl.replace(`page=${products.page}`, `page=${products.prevPage}`) : null //revisar esto
-        const nextLink = products.hasNextPage ? baseUrl.replace(`page=${products.page}`, `page=${products.nextPage}`) : null //revisar esto
+        const prevLink = products.hasPrevPage ? baseUrl.replace(`page=${products.page}`, `page=${products.prevPage}`) : null
+        const nextLink = products.hasNextPage ? baseUrl.replace(`page=${products.page}`, `page=${products.nextPage}`) : null
 
         const response = {
             status: "Success",
